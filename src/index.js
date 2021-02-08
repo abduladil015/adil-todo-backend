@@ -147,7 +147,7 @@ app.get('/userinfo', AuthMiddleware, async (req, res) => {
   res.send({ userName: user.userName });
 });
 app.get('/', (req, res) => {
-  res.send('server Works');
+  res.send('adils server Works');
 });
 
 app.listen(process.env.PORT, () => console.log("db is connected on port 9090....."));
